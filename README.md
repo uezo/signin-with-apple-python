@@ -36,7 +36,7 @@ Start webserver. Port 5001 is used by default.
 $ python run.py
 ```
 
-If your server runs on your desktop, use ngrok to tunnel the http access from the internet.
+If you run the server on your desktop, use ngrok to tunnel the http access from the internet.
 This is the sample command to enable to access to your app by `https://yoursubdomain.ngrok.io/`.
 
 ```
