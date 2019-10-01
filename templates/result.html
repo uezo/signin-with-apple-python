@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Result - Sign In with Apple</title>
+</head>
+<body>
+    <div>
+        <h1>結果</h1>
+        <p>あなたのSUBは <strong>{{values.id_token.sub}}</strong> です</p>
+    </div>
+    <div>
+        <h1>取得データ（JSON）</h1>
+        <div>
+            <code>
+            {{values}}
+            </code>
+        </div>
+    </div>
+    <div>
+        <h1>生リクエストデータ</h1>
+        <div>
+            <code>
+            {{headers}}
+            </code>
+        </div>
+        <hr />
+        <div>
+            <code>
+            {{raw_data}}
+            </code>
+        </div>
+    </div>
+</body>
+</html>
